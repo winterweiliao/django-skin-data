@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Beautiful design tables in HTML in the style of a zebra.</title>
+	<link rel="stylesheet" href="/static/product/css/style.css" type="text/css">
+</head>
+<body>
+<div id="">
+
+	<table>
+    <caption></caption>
+		<thead>
+        	<tr>
+                <th style="width: 50%; font-size: 30px;">Yesterday (Volume:{{ total_volume_for_yesterday }} Amount:{{ total_amount_for_yesterday|floatformat:2 }})</th>
+				<th style="width: 50%; font-size: 30px;">Today (Volume:{{ total_volume }} Amount:{{ total_amount|floatformat:2 }})</th>
+            </tr>
+		</thead>
+        <tbody>
+        <tr>
+            <td>
+                <table class="zebra">
+                    <thead>
+                    <tr>
+                        <th>NAME</th>
+                        <th>PRICE</th>
+                        <th>VOLUME</th>
+                        <th>AMOUNT</th>
+                        <th>DATETIME</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for item in items_for_yesterday %}
+                        <tr>
+                            <td>{{ item.name }}</td>
+                            <td>{{ item.lowest_price }}</td>
+                            <td>{{ item.volume }}</td>
+                            <td>{{ item.amount }}</td>
+                            <td>{{ item.latest_time|date:"y-m-d H:i:s" }}</td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </td>
+            <td valign="top">
+                <table class="zebra">
+                    <thead>
+                    <tr>
+                        <th>NAME</th>
+                        <th>PRICE</th>
+                        <th>VOLUME</th>
+                        <th>AMOUNT</th>
+                        <th>DATETIME</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for item in items %}
+                        <tr>
+                            <td>{{ item.name }}</td>
+                            <td>{{ item.lowest_price }}</td>
+                            <td>{{ item.volume }}</td>
+                            <td>{{ item.amount }}</td>
+                            <td>{{ item.latest_time|date:"y-m-d H:i:s" }}</td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+	</table>
+
+</div>
+</body>
+</html>
