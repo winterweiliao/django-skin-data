@@ -142,7 +142,7 @@ def spider_write(request):
         p_list = Product.objects.filter(market_hash_name=market_hash_name, app_code=433850).order_by('price')[0:2]
         discount = (p_list[1].price - p_list[0].price) / p_list[1].price
         if discount >= 0.03:
-            print market_hash_name, p_list[0].price
+            print(market_hash_name, p_list[0].price)
         Product.objects.filter(market_hash_name=market_hash_name, app_code=433850).delete()
 
     return HttpResponse('successfully')
@@ -193,6 +193,6 @@ def spider_write_day_line(request):
     data['close_price'] = close_price
 
     DayLine.objects.get_or_create(name=name, app_code=app_code, trade_date=trade_date, **data)
-    print request.GET
+    print(request.GET)
 
     return HttpResponse('successfully')

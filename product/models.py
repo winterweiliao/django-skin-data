@@ -16,7 +16,7 @@ class Product(models.Model):
 
 
 class PriceFlow(models.Model):
-    product = models.ForeignKey(Product)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
     name = models.CharField(max_length=255, default='')
     app_code = models.PositiveIntegerField(default=0)
     price = models.DecimalField(max_digits=13, decimal_places=2)
@@ -34,7 +34,7 @@ class PriceFlow(models.Model):
 
 
 class DayLine(models.Model):
-    product = models.ForeignKey(Product, db_constraint=False)
+    product = models.ForeignKey(Product, db_constraint=False, on_delete=models.CASCADE)
     name = models.CharField(max_length=255, default='')
     app_code = models.PositiveIntegerField(default=0)
     price = models.DecimalField(max_digits=13, decimal_places=2)
@@ -52,7 +52,7 @@ class DayLine(models.Model):
 
 
 class TradeFlow(models.Model):
-    product = models.ForeignKey(Product, db_constraint=False, default=0)
+    product = models.ForeignKey(Product, db_constraint=False, default=0, on_delete=models.CASCADE)
     name = models.CharField(max_length=255, null=True)
     market_name = models.CharField(max_length=255, null=True)
     market_hash_name = models.CharField(max_length=255, null=True)

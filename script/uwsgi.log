@@ -1,0 +1,898 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Aug 30 22:00:16 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 29 August 2018 17:17:45
+os: Linux-3.10.0-693.el7.x86_64 #1 SMP Tue Aug 22 21:09:27 UTC 2017
+nodename: VM_15_185_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/testing/django-skin-data
+writing pidfile to /data/testing/django-skin-data/scripts/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/testing/django-skin-data/
+your processes number limit is 3895
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 0.0.0.0:8000 fd 3
+uwsgi socket 0 bound to UNIX address /data/testing/django-skin-data/scripts/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Aug 29 2018, 02:00:21)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x1e7cbf0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486672 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1e7cbf0 pid: 11467 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11467)
+spawned uWSGI worker 1 (pid: 11468, cores: 1)
+spawned uWSGI worker 2 (pid: 11469, cores: 1)
+spawned uWSGI worker 3 (pid: 11470, cores: 1)
+spawned uWSGI worker 4 (pid: 11471, cores: 1)
+spawned uWSGI worker 5 (pid: 11472, cores: 1)
+spawned uWSGI http 1 (pid: 11473)
+[pid: 11471|app: 0|req: 1/1] 125.84.189.235 () {40 vars in 734 bytes} [Thu Aug 30 14:01:29 2018] GET /product/quotes => generated 3139 bytes in 32 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 11472|app: 0|req: 1/2] 125.84.189.235 () {38 vars in 663 bytes} [Thu Aug 30 14:01:49 2018] GET / => generated 524 bytes in 25 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 11469|app: 0|req: 1/3] 125.84.189.235 () {36 vars in 660 bytes} [Thu Aug 30 14:02:00 2018] GET /product/quotes => generated 3139 bytes in 22 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 11470|app: 0|req: 1/4] 125.84.189.235 () {36 vars in 688 bytes} [Thu Aug 30 14:02:23 2018] GET /product/dashboard-igv-578080 => generated 1755 bytes in 53 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 11468|app: -1|req: -1/5] 125.84.189.235 () {36 vars in 657 bytes} [Thu Aug 30 14:02:23 2018] GET /static/product/css/style.css => generated 1766 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 11471|app: -1|req: -1/6] 125.84.189.235 () {36 vars in 676 bytes} [Thu Aug 30 14:02:23 2018] GET /static/product/img/body.jpg => generated 14058 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 3 headers in 114 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Aug 30 23:29:59 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 29 August 2018 17:17:45
+os: Linux-3.10.0-693.el7.x86_64 #1 SMP Tue Aug 22 21:09:27 UTC 2017
+nodename: VM_15_185_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/testing/django-skin-data/scripts
+writing pidfile to /data/testing/django-skin-data/scripts/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/testing/django-skin-data/
+your processes number limit is 3895
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+probably another instance of uWSGI is running on the same address (0.0.0.0:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Aug 30 23:37:48 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 29 August 2018 17:17:45
+os: Linux-3.10.0-693.el7.x86_64 #1 SMP Tue Aug 22 21:09:27 UTC 2017
+nodename: VM_15_185_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/testing/django-skin-data/scripts
+writing pidfile to /data/testing/django-skin-data/scripts/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/testing/django-skin-data/
+your processes number limit is 3895
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 0.0.0.0:8000 fd 3
+uwsgi socket 0 bound to UNIX address /data/testing/django-skin-data/scripts/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Aug 29 2018, 02:00:21)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x16a9c80
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486672 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x16a9c80 pid: 21218 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 21218)
+spawned uWSGI worker 1 (pid: 21220, cores: 1)
+spawned uWSGI worker 2 (pid: 21221, cores: 1)
+spawned uWSGI worker 3 (pid: 21222, cores: 1)
+spawned uWSGI worker 4 (pid: 21223, cores: 1)
+spawned uWSGI worker 5 (pid: 21224, cores: 1)
+spawned uWSGI http 1 (pid: 21225)
+[pid: 21221|app: 0|req: 1/1] 125.84.189.235 () {38 vars in 663 bytes} [Thu Aug 30 15:37:51 2018] GET / => generated 524 bytes in 37 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 21222|app: 0|req: 1/2] 125.84.189.235 () {38 vars in 703 bytes} [Thu Aug 30 15:37:55 2018] GET /product/quotes => generated 3139 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM_15_185_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[pid: 21223|app: 0|req: 1/3] 117.50.7.159 () {24 vars in 248 bytes} [Thu Aug 30 15:50:34 2018] GET / => generated 53695 bytes in 46 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: VM_15_185_centos client_addr: 117.50.7.159 client_port: 49366] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+[pid: 21224|app: 0|req: 1/4] 117.50.7.159 () {26 vars in 276 bytes} [Thu Aug 30 15:50:45 2018] GET / => generated 524 bytes in 34 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 21220|app: 0|req: 1/5] 106.75.2.81 () {34 vars in 561 bytes} [Thu Aug 30 15:50:45 2018] GET / => generated 524 bytes in 35 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Thu Aug 30 15:58:36 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Aug 30 15:58:36 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Aug 30 15:58:36 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Aug 30 15:58:36 2018 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Aug 30 15:58:36 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Aug 31 00:00:07 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 29 August 2018 17:17:45
+os: Linux-3.10.0-693.el7.x86_64 #1 SMP Tue Aug 22 21:09:27 UTC 2017
+nodename: VM_15_185_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/testing/django-skin-data/scripts
+writing pidfile to /data/testing/django-skin-data/scripts/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/testing/django-skin-data/
+your processes number limit is 3895
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 0.0.0.0:8888 fd 3
+uwsgi socket 0 bound to UNIX address /data/testing/django-skin-data/scripts/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Aug 29 2018, 02:00:21)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x132bc80
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486672 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x132bc80 pid: 23491 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 23491)
+spawned uWSGI worker 1 (pid: 23492, cores: 1)
+spawned uWSGI worker 2 (pid: 23493, cores: 1)
+spawned uWSGI worker 3 (pid: 23494, cores: 1)
+spawned uWSGI worker 4 (pid: 23495, cores: 1)
+spawned uWSGI worker 5 (pid: 23496, cores: 1)
+spawned uWSGI http 1 (pid: 23497)
+[pid: 23493|app: 0|req: 1/1] 125.84.189.235 () {36 vars in 632 bytes} [Thu Aug 30 16:01:32 2018] GET / => generated 524 bytes in 27 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 23494|app: 0|req: 1/2] 125.84.189.235 () {36 vars in 616 bytes} [Thu Aug 30 16:01:32 2018] GET /favicon.ico => generated 4107 bytes in 20 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 23495|app: 0|req: 1/3] 125.84.189.235 () {36 vars in 632 bytes} [Thu Aug 30 16:21:49 2018] GET / => generated 524 bytes in 31 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 23496|app: 0|req: 1/4] 125.84.189.235 () {38 vars in 703 bytes} [Thu Aug 30 16:21:51 2018] GET /product/quotes => generated 3139 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Aug 31 00:47:38 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 29 August 2018 17:17:45
+os: Linux-3.10.0-693.el7.x86_64 #1 SMP Tue Aug 22 21:09:27 UTC 2017
+nodename: VM_15_185_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/nginx
+writing pidfile to /data/testing/django-skin-data/scripts/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/testing/django-skin-data/
+your processes number limit is 3895
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+probably another instance of uWSGI is running on the same address (127.0.0.1:8888).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 23492|app: 0|req: 1/5] 125.84.189.235 () {36 vars in 632 bytes} [Thu Aug 30 16:48:10 2018] GET / => generated 524 bytes in 23 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 23493|app: 0|req: 2/6] 125.84.189.235 () {38 vars in 663 bytes} [Thu Aug 30 16:48:25 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 23494|app: 0|req: 2/7] 125.84.189.235 () {38 vars in 663 bytes} [Thu Aug 30 16:48:27 2018] GET / => generated 524 bytes in 13 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 23495|app: 0|req: 2/8] 125.84.189.235 () {38 vars in 703 bytes} [Thu Aug 30 16:48:31 2018] GET /product/quotes => generated 3139 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Aug 31 00:54:48 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 29 August 2018 17:17:45
+os: Linux-3.10.0-693.el7.x86_64 #1 SMP Tue Aug 22 21:09:27 UTC 2017
+nodename: VM_15_185_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/nginx
+writing pidfile to /data/testing/django-skin-data/scripts/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/testing/django-skin-data/
+your processes number limit is 3895
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /data/testing/django-skin-data/scripts/uwsgi.sock fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Aug 29 2018, 02:00:21)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x298f680
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486672 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x298f680 pid: 28996 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28996)
+spawned uWSGI worker 1 (pid: 28997, cores: 1)
+spawned uWSGI worker 2 (pid: 28998, cores: 1)
+spawned uWSGI worker 3 (pid: 28999, cores: 1)
+spawned uWSGI worker 4 (pid: 29000, cores: 1)
+spawned uWSGI worker 5 (pid: 29001, cores: 1)
+[pid: 29001|app: 0|req: 1/1] 125.84.189.235 () {42 vars in 743 bytes} [Thu Aug 30 16:54:57 2018] GET /product/quotes => generated 3139 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 28997|app: 0|req: 1/2] 125.84.189.235 () {42 vars in 743 bytes} [Thu Aug 30 16:55:05 2018] GET /product/quotes => generated 3139 bytes in 23 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 28998|app: 0|req: 1/3] 125.84.189.235 () {40 vars in 684 bytes} [Thu Aug 30 16:55:07 2018] GET / => generated 524 bytes in 29 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 28999|app: 0|req: 1/4] 125.84.189.235 () {42 vars in 715 bytes} [Thu Aug 30 16:55:09 2018] GET / => generated 524 bytes in 24 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 29000|app: 0|req: 1/5] 125.84.189.235 () {42 vars in 715 bytes} [Thu Aug 30 16:55:09 2018] GET / => generated 524 bytes in 29 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 29001|app: 0|req: 2/6] 125.84.189.235 () {42 vars in 715 bytes} [Thu Aug 30 16:56:05 2018] GET / => generated 524 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 28997|app: 0|req: 2/7] 125.84.189.235 () {42 vars in 715 bytes} [Thu Aug 30 16:56:09 2018] GET / => generated 524 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 28998|app: 0|req: 2/8] 125.84.189.235 () {42 vars in 715 bytes} [Thu Aug 30 16:57:07 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 28999|app: 0|req: 2/9] 125.84.189.235 () {42 vars in 755 bytes} [Thu Aug 30 16:57:08 2018] GET /product/quotes => generated 3139 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 29000|app: 0|req: 2/10] 125.84.189.235 () {36 vars in 660 bytes} [Thu Aug 30 16:57:20 2018] GET /product/quotes => generated 3139 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 29001|app: 0|req: 3/11] 125.84.189.235 () {38 vars in 691 bytes} [Thu Aug 30 16:57:27 2018] GET /product/quotes => generated 3139 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 28997|app: 0|req: 3/12] 125.84.189.235 () {38 vars in 691 bytes} [Thu Aug 30 16:57:31 2018] GET /product/quotes => generated 3139 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 28998|app: 0|req: 3/13] 125.84.189.235 () {40 vars in 712 bytes} [Thu Aug 30 16:58:25 2018] GET /product/quotes => generated 3139 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 28999|app: 0|req: 3/14] 125.84.189.235 () {42 vars in 743 bytes} [Thu Aug 30 16:58:31 2018] GET /product/quotes => generated 3139 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 29000|app: 0|req: 3/15] 125.84.189.235 () {42 vars in 715 bytes} [Thu Aug 30 16:58:36 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 29001|app: 0|req: 4/16] 125.84.189.235 () {36 vars in 632 bytes} [Thu Aug 30 17:00:29 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 28997|app: 0|req: 4/17] 125.84.189.235 () {38 vars in 661 bytes} [Thu Aug 30 17:00:40 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 28998|app: 0|req: 4/18] 125.84.189.235 () {38 vars in 702 bytes} [Thu Aug 30 17:00:52 2018] GET /product/quotes => generated 3139 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 28999|app: 0|req: 4/19] 125.84.189.235 () {40 vars in 712 bytes} [Thu Aug 30 17:01:24 2018] GET /product/quotes => generated 3139 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 29000|app: 0|req: 4/20] 125.84.189.235 () {42 vars in 743 bytes} [Thu Aug 30 17:01:29 2018] GET /product/quotes => generated 3139 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 29001|app: 0|req: 5/21] 125.84.189.235 () {40 vars in 684 bytes} [Thu Aug 30 17:01:33 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 28997|app: 0|req: 5/22] 125.84.189.235 () {42 vars in 715 bytes} [Thu Aug 30 17:02:03 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 28998|app: 0|req: 5/23] 125.84.189.235 () {42 vars in 715 bytes} [Thu Aug 30 17:02:18 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 28999|app: 0|req: 5/24] 222.73.85.100 () {30 vars in 404 bytes} [Thu Aug 30 19:05:14 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /index.action
+[pid: 29000|app: 0|req: 5/25] 222.73.85.100 () {30 vars in 1299 bytes} [Thu Aug 30 19:05:14 2018] GET /index.action => generated 4110 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 29001|app: 0|req: 6/26] 80.82.70.187 () {28 vars in 419 bytes} [Fri Aug 31 00:34:29 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54435 bytes in 48 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.70.187 client_port: 59576] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 28997|app: 0|req: 6/27] 80.82.70.187 () {32 vars in 431 bytes} [Fri Aug 31 01:37:52 2018] GET /cache/global/img/gs.gif => generated 54574 bytes in 52 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28998|app: 0|req: 6/28] 185.169.231.209 () {24 vars in 294 bytes} [Fri Aug 31 02:10:31 2018] GET /v1/wallet/list_keys => generated 53848 bytes in 53 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Not Found: /manager/html
+[pid: 28999|app: 0|req: 6/29] 202.43.154.162 () {36 vars in 521 bytes} [Fri Aug 31 02:25:59 2018] GET /manager/html => generated 4110 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /manager/html
+[pid: 29000|app: 0|req: 6/30] 202.43.154.162 () {32 vars in 470 bytes} [Fri Aug 31 02:25:59 2018] GET /manager/html => generated 4110 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 29001|app: 0|req: 7/31] 80.82.78.50 () {32 vars in 430 bytes} [Fri Aug 31 03:25:07 2018] GET /cache/global/img/gs.gif => generated 54573 bytes in 43 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28997|app: 0|req: 7/32] 185.169.231.209 () {24 vars in 294 bytes} [Fri Aug 31 07:02:22 2018] GET /v1/wallet/list_keys => generated 53848 bytes in 47 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 28998|app: 0|req: 7/33] 80.82.70.187 () {28 vars in 419 bytes} [Fri Aug 31 09:50:45 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54435 bytes in 27 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.70.187 client_port: 62868] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 28999|app: 0|req: 7/34] 80.82.70.187 () {28 vars in 419 bytes} [Fri Aug 31 09:50:48 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54435 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.70.187 client_port: 53143] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 29000|app: 0|req: 7/35] 80.82.78.50 () {28 vars in 418 bytes} [Fri Aug 31 10:03:55 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54434 bytes in 37 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.78.50 client_port: 12700] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 29001|app: 0|req: 8/36] 80.82.70.187 () {32 vars in 431 bytes} [Fri Aug 31 10:55:14 2018] GET /cache/global/img/gs.gif => generated 54574 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM_15_185_centos:8888'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[pid: 28997|app: 0|req: 8/37] 196.52.43.84 () {26 vars in 322 bytes} [Fri Aug 31 12:51:43 2018] GET / => generated 53873 bytes in 36 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: VM_15_185_centos client_addr: 196.52.43.84 client_port: 42449] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28998|app: 0|req: 8/38] 185.169.231.209 () {24 vars in 294 bytes} [Fri Aug 31 12:56:52 2018] GET /v1/wallet/list_keys => generated 53848 bytes in 27 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Not Found: /manager/html
+[pid: 28999|app: 0|req: 8/39] 202.43.154.162 () {36 vars in 521 bytes} [Fri Aug 31 14:00:12 2018] GET /manager/html => generated 4110 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /manager/html
+[pid: 29000|app: 0|req: 8/40] 202.43.154.162 () {32 vars in 469 bytes} [Fri Aug 31 14:00:12 2018] GET /manager/html => generated 4110 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 29001|app: 0|req: 9/41] 125.84.188.134 () {40 vars in 684 bytes} [Fri Aug 31 15:50:24 2018] GET / => generated 524 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 28997|app: 0|req: 9/42] 125.84.188.134 () {40 vars in 668 bytes} [Fri Aug 31 15:50:24 2018] GET /favicon.ico => generated 4107 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 28998|app: 0|req: 9/43] 125.84.188.134 () {42 vars in 755 bytes} [Fri Aug 31 15:50:29 2018] GET /product/quotes => generated 3139 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 28999|app: 0|req: 9/44] 125.84.188.134 () {40 vars in 740 bytes} [Fri Aug 31 16:28:48 2018] GET /product/dashboard-igv-578080 => generated 1755 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 29000|app: 0|req: 9/45] 125.84.188.134 () {42 vars in 771 bytes} [Fri Aug 31 16:29:02 2018] GET /product/dashboard-igv-578080 => generated 1755 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 29001|app: 0|req: 10/46] 185.169.231.209 () {24 vars in 294 bytes} [Fri Aug 31 18:03:55 2018] GET /v1/wallet/list_keys => generated 53848 bytes in 77 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 28997|app: 0|req: 10/47] 60.52.125.199 () {26 vars in 279 bytes} [Fri Aug 31 18:24:59 2018] GET / => generated 53866 bytes in 57 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 28998|app: 0|req: 10/48] 80.82.70.187 () {28 vars in 419 bytes} [Fri Aug 31 19:13:57 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54435 bytes in 44 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.70.187 client_port: 36319] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 28999|app: 0|req: 10/49] 80.82.70.187 () {32 vars in 431 bytes} [Fri Aug 31 20:16:21 2018] GET /cache/global/img/gs.gif => generated 54574 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM_15_185_centos:8888'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[pid: 29000|app: 0|req: 10/50] 183.57.54.43 () {22 vars in 226 bytes} [Fri Aug 31 20:17:36 2018] GET / => generated 53569 bytes in 43 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM_15_185_centos:8888'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[pid: 29001|app: 0|req: 11/51] 183.57.54.43 () {22 vars in 230 bytes} [Fri Aug 31 20:17:36 2018] OPTIONS / => generated 53597 bytes in 30 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM_15_185_centos:8888'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /nice ports,/Trinity.txt.bak
+[pid: 28997|app: 0|req: 11/52] 183.57.54.43 () {22 vars in 288 bytes} [Fri Aug 31 20:17:37 2018] GET /nice%20ports%2C/Tri%6Eity.txt%2ebak => generated 53913 bytes in 36 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 28998|app: 0|req: 11/53] 183.57.54.43 () {26 vars in 278 bytes} [Fri Aug 31 20:17:41 2018] GET / => generated 53865 bytes in 31 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28999|app: 0|req: 11/54] 185.169.231.209 () {24 vars in 294 bytes} [Sat Sep  1 00:02:03 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 45 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '112.124.42.80:63435'. You may need to add '112.124.42.80' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 29000|app: 0|req: 11/55] 60.191.52.254 () {36 vars in 582 bytes} [Sat Sep  1 01:21:09 2018] HEAD / => generated 54775 bytes in 38 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Not Found: /manager/html
+[pid: 29001|app: 0|req: 12/56] 202.43.154.162 () {32 vars in 470 bytes} [Sat Sep  1 01:32:38 2018] GET /manager/html => generated 4110 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /manager/html
+[pid: 28997|app: 0|req: 12/57] 202.43.154.162 () {36 vars in 521 bytes} [Sat Sep  1 01:32:38 2018] GET /manager/html => generated 4110 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 28998|app: 0|req: 12/58] 80.82.78.50 () {32 vars in 430 bytes} [Sat Sep  1 01:46:06 2018] GET /cache/global/img/gs.gif => generated 54572 bytes in 27 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28999|app: 0|req: 12/59] 185.169.231.209 () {24 vars in 294 bytes} [Sat Sep  1 04:02:13 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 70 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 29000|app: 0|req: 12/60] 80.82.70.187 () {28 vars in 419 bytes} [Sat Sep  1 04:13:10 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54434 bytes in 47 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.70.187 client_port: 53635] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 29001|app: 0|req: 13/61] 80.82.70.187 () {32 vars in 431 bytes} [Sat Sep  1 05:17:32 2018] GET /cache/global/img/gs.gif => generated 54573 bytes in 170 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Not Found: /wp-includes/js/comment-reply.min.js
+[pid: 28997|app: 0|req: 13/62] 117.184.250.101 () {44 vars in 781 bytes} [Sat Sep  1 11:24:31 2018] GET /wp-includes/js/comment-reply.min.js => generated 4179 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /skins/vector/csshover.htc
+[pid: 28998|app: 0|req: 13/63] 117.184.250.101 () {44 vars in 761 bytes} [Sat Sep  1 11:24:31 2018] GET /skins/vector/csshover.htc => generated 4149 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /misc/states.js
+[pid: 28999|app: 0|req: 13/64] 117.184.250.101 () {44 vars in 739 bytes} [Sat Sep  1 11:24:31 2018] GET /misc/states.js => generated 4116 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /include/js/md5.js
+[pid: 29000|app: 0|req: 13/65] 117.184.250.101 () {44 vars in 745 bytes} [Sat Sep  1 11:24:31 2018] GET /include/js/md5.js => generated 4125 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /include/js/common.js
+[pid: 29001|app: 0|req: 14/66] 117.184.250.101 () {44 vars in 751 bytes} [Sat Sep  1 11:24:32 2018] GET /include/js/common.js => generated 4134 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /include/js/ajax.js
+[pid: 28997|app: 0|req: 14/67] 117.184.250.101 () {44 vars in 747 bytes} [Sat Sep  1 11:24:32 2018] GET /include/js/ajax.js => generated 4128 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /res/js/dev/pages/common/global.js
+[pid: 28998|app: 0|req: 14/68] 117.184.250.101 () {44 vars in 777 bytes} [Sat Sep  1 11:24:32 2018] GET /res/js/dev/pages/common/global.js => generated 4173 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/wind_editor.js
+[pid: 28999|app: 0|req: 14/69] 117.184.250.101 () {44 vars in 745 bytes} [Sat Sep  1 11:24:32 2018] GET /js/wind_editor.js => generated 4125 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /styles/prosilver/template/forum_fn.js
+[pid: 29000|app: 0|req: 14/70] 117.184.250.101 () {44 vars in 785 bytes} [Sat Sep  1 11:24:32 2018] GET /styles/prosilver/template/forum_fn.js => generated 4185 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /styles/prosilver/template/styleswitcher.js
+[pid: 29001|app: 0|req: 15/71] 117.184.250.101 () {44 vars in 795 bytes} [Sat Sep  1 11:24:32 2018] GET /styles/prosilver/template/styleswitcher.js => generated 4200 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /editor/ubb/uploader.js
+[pid: 28997|app: 0|req: 15/72] 117.184.250.101 () {44 vars in 755 bytes} [Sat Sep  1 11:24:32 2018] GET /editor/ubb/uploader.js => generated 4140 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /template/default/style.css
+[pid: 28998|app: 0|req: 15/73] 117.184.250.101 () {44 vars in 763 bytes} [Sat Sep  1 11:24:32 2018] GET /template/default/style.css => generated 4152 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /images/js/common.js
+[pid: 28999|app: 0|req: 15/74] 117.184.250.101 () {44 vars in 749 bytes} [Sat Sep  1 11:24:32 2018] GET /images/js/common.js => generated 4131 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /templets/style/dede.css
+[pid: 29000|app: 0|req: 15/75] 117.184.250.101 () {44 vars in 757 bytes} [Sat Sep  1 11:24:33 2018] GET /templets/style/dede.css => generated 4143 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /include/dedeajax2.js
+[pid: 29001|app: 0|req: 16/76] 117.184.250.101 () {44 vars in 751 bytes} [Sat Sep  1 11:24:33 2018] GET /include/dedeajax2.js => generated 4134 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /images/default/inc.js
+[pid: 28997|app: 0|req: 16/77] 117.184.250.101 () {44 vars in 753 bytes} [Sat Sep  1 11:24:33 2018] GET /images/default/inc.js => generated 4137 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/lang/core/zh-cn.js
+[pid: 28998|app: 0|req: 16/78] 117.184.250.101 () {44 vars in 753 bytes} [Sat Sep  1 11:24:33 2018] GET /js/lang/core/zh-cn.js => generated 4137 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/lang/cms/zh-cn.js
+[pid: 28999|app: 0|req: 16/79] 117.184.250.101 () {44 vars in 751 bytes} [Sat Sep  1 11:24:33 2018] GET /js/lang/cms/zh-cn.js => generated 4134 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /d/js/acmsd/ecms_dialog.js
+[pid: 29000|app: 0|req: 16/80] 117.184.250.101 () {44 vars in 761 bytes} [Sat Sep  1 11:24:33 2018] GET /d/js/acmsd/ecms_dialog.js => generated 4149 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /skin/default/js/tabs.js
+[pid: 29001|app: 0|req: 17/81] 117.184.250.101 () {44 vars in 757 bytes} [Sat Sep  1 11:24:33 2018] GET /skin/default/js/tabs.js => generated 4143 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /media/system/js/tab.js
+[pid: 28997|app: 0|req: 17/82] 117.184.250.101 () {44 vars in 755 bytes} [Sat Sep  1 11:24:33 2018] GET /media/system/js/tab.js => generated 4140 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /media/system/css/mootree.css
+[pid: 28998|app: 0|req: 17/83] 117.184.250.101 () {44 vars in 767 bytes} [Sat Sep  1 11:24:33 2018] GET /media/system/css/mootree.css => generated 4158 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /lang/zh/front.js
+[pid: 28999|app: 0|req: 17/84] 117.184.250.101 () {44 vars in 743 bytes} [Sat Sep  1 11:24:33 2018] GET /lang/zh/front.js => generated 4122 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /style/default/content.css
+[pid: 29000|app: 0|req: 17/85] 117.184.250.101 () {44 vars in 761 bytes} [Sat Sep  1 11:24:34 2018] GET /style/default/content.css => generated 4149 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /lang/zh/edit.js
+[pid: 29001|app: 0|req: 18/86] 117.184.250.101 () {44 vars in 741 bytes} [Sat Sep  1 11:24:34 2018] GET /lang/zh/edit.js => generated 4119 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /rockmongo/
+[pid: 28997|app: 0|req: 18/87] 117.184.250.101 () {44 vars in 731 bytes} [Sat Sep  1 11:24:34 2018] GET /rockmongo/ => generated 4104 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /server-status
+[pid: 28998|app: 0|req: 18/88] 117.184.250.101 () {44 vars in 737 bytes} [Sat Sep  1 11:24:34 2018] GET /server-status => generated 4113 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /ueditor.all.js
+[pid: 28999|app: 0|req: 18/89] 117.184.250.101 () {44 vars in 739 bytes} [Sat Sep  1 11:24:34 2018] GET /ueditor.all.js => generated 4116 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /wikilib.d/PmWiki.ChangeLog
+[pid: 29000|app: 0|req: 18/90] 117.184.250.101 () {44 vars in 763 bytes} [Sat Sep  1 11:24:34 2018] GET /wikilib.d/PmWiki.ChangeLog => generated 4152 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /4e5e5d7364f443e28fbf0d3ae744a59a
+[pid: 29001|app: 0|req: 19/91] 117.184.250.101 () {44 vars in 775 bytes} [Sat Sep  1 11:24:34 2018] GET /4e5e5d7364f443e28fbf0d3ae744a59a => generated 4170 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /jenkins/
+[pid: 28997|app: 0|req: 19/92] 117.184.250.101 () {44 vars in 727 bytes} [Sat Sep  1 11:24:34 2018] GET /jenkins/ => generated 4098 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /console/login/LoginForm.jsp
+[pid: 28998|app: 0|req: 19/93] 117.184.250.101 () {44 vars in 765 bytes} [Sat Sep  1 11:24:34 2018] GET /console/login/LoginForm.jsp => generated 4155 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /solr/
+[pid: 28999|app: 0|req: 19/94] 117.184.250.101 () {44 vars in 721 bytes} [Sat Sep  1 11:24:35 2018] GET /solr/ => generated 4089 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 29000|app: 0|req: 19/95] 117.184.250.101 () {44 vars in 711 bytes} [Sat Sep  1 11:24:35 2018] GET / => generated 524 bytes in 26 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM_15_185_centos:8888'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[pid: 29001|app: 0|req: 20/96] 104.152.52.68 () {22 vars in 227 bytes} [Sat Sep  1 11:37:18 2018] GET / => generated 53569 bytes in 30 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM_15_185_centos:8888'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[pid: 28997|app: 0|req: 20/97] 104.152.52.68 () {22 vars in 231 bytes} [Sat Sep  1 11:37:19 2018] OPTIONS / => generated 53597 bytes in 25 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: VM_15_185_centos client_addr: 104.152.52.68 client_port: 64390] hr_write(): Broken pipe [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: 'VM_15_185_centos:8888'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /nice ports,/Trinity.txt.bak
+[pid: 28998|app: 0|req: 20/98] 104.152.52.68 () {22 vars in 289 bytes} [Sat Sep  1 11:37:20 2018] GET /nice%20ports%2C/Tri%6Eity.txt%2ebak => generated 53913 bytes in 29 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM_15_185_centos:8888'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[pid: 28999|app: 0|req: 20/99] 104.152.52.68 () {22 vars in 229 bytes} [Sat Sep  1 11:37:21 2018] OPTIONS / => generated 53595 bytes in 30 msecs (RTSP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 29000|app: 0|req: 20/100] 104.152.52.68 () {26 vars in 279 bytes} [Sat Sep  1 11:37:24 2018] GET / => generated 53865 bytes in 33 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 29001|app: 0|req: 21/101] 185.169.231.209 () {24 vars in 294 bytes} [Sat Sep  1 12:29:07 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 40 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 28997|app: 0|req: 21/102] 80.82.70.187 () {28 vars in 419 bytes} [Sat Sep  1 13:34:45 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54434 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.70.187 client_port: 17597] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 28998|app: 0|req: 21/103] 80.82.70.187 () {32 vars in 431 bytes} [Sat Sep  1 14:37:18 2018] GET /cache/global/img/gs.gif => generated 54573 bytes in 28 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '112.124.42.80:63435'. You may need to add '112.124.42.80' to ALLOWED_HOSTS.
+Bad Request: /http:/112.124.42.80:63435/
+[pid: 28999|app: 0|req: 21/104] 60.191.52.254 () {34 vars in 657 bytes} [Sat Sep  1 14:39:05 2018] HEAD http://112.124.42.80:63435/ => generated 54887 bytes in 47 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: 112.124.42.80:63435 client_addr: 60.191.52.254 client_port: 60849] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 29000|app: 0|req: 21/105] 185.169.231.209 () {24 vars in 294 bytes} [Sat Sep  1 18:09:35 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 29001|app: 0|req: 22/106] 139.162.83.10 () {30 vars in 341 bytes} [Sat Sep  1 19:58:52 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 28997|app: 0|req: 22/107] 80.82.70.187 () {28 vars in 419 bytes} [Sat Sep  1 22:40:37 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54434 bytes in 48 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.70.187 client_port: 17792] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28998|app: 0|req: 22/108] 185.169.231.209 () {24 vars in 294 bytes} [Sat Sep  1 23:09:31 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 46 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 28999|app: 0|req: 22/109] 80.82.70.187 () {32 vars in 431 bytes} [Sat Sep  1 23:42:10 2018] GET /cache/global/img/gs.gif => generated 54573 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 29000|app: 0|req: 22/110] 80.82.78.50 () {32 vars in 430 bytes} [Sun Sep  2 00:15:56 2018] GET /cache/global/img/gs.gif => generated 54572 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 29001|app: 0|req: 23/111] 185.169.231.209 () {24 vars in 294 bytes} [Sun Sep  2 04:10:49 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 28 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 28997|app: 0|req: 23/112] 172.82.166.210 () {28 vars in 421 bytes} [Sun Sep  2 06:55:03 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54436 bytes in 101 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 172.82.166.210 client_port: 55477] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 28998|app: 0|req: 23/113] 80.82.78.50 () {28 vars in 418 bytes} [Sun Sep  2 07:00:26 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54433 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.78.50 client_port: 46053] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 28999|app: 0|req: 23/114] 80.82.70.187 () {28 vars in 419 bytes} [Sun Sep  2 07:49:23 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54434 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 29000|app: 0|req: 23/115] 185.169.231.209 () {24 vars in 294 bytes} [Sun Sep  2 07:52:13 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 27 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Not Found: /console/login/LoginForm.jsp
+[pid: 29001|app: 0|req: 24/116] 183.57.53.177 () {38 vars in 682 bytes} [Sun Sep  2 08:26:07 2018] GET /console/login/LoginForm.jsp => generated 4155 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 28997|app: 0|req: 24/117] 80.82.78.50 () {28 vars in 418 bytes} [Sun Sep  2 09:51:16 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54433 bytes in 36 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.78.50 client_port: 27821] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+[pid: 28998|app: 0|req: 24/118] 198.108.66.144 () {30 vars in 346 bytes} [Sun Sep  2 12:28:47 2018] GET / => generated 524 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28999|app: 0|req: 24/119] 185.169.231.209 () {24 vars in 294 bytes} [Sun Sep  2 13:03:41 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 37 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 29000|app: 0|req: 24/120] 94.102.49.190 () {34 vars in 535 bytes} [Sun Sep  2 15:02:56 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 29001|app: 0|req: 25/121] 94.102.49.190 () {36 vars in 458 bytes} [Sun Sep  2 15:03:00 2018] GET /favicon.ico => generated 4107 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 28997|app: 0|req: 25/122] 80.82.70.187 () {32 vars in 431 bytes} [Sun Sep  2 15:41:54 2018] GET /cache/global/img/gs.gif => generated 54573 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 28998|app: 0|req: 25/123] 80.82.70.187 () {28 vars in 419 bytes} [Sun Sep  2 15:48:01 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54434 bytes in 37 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 28999|app: 0|req: 25/124] 107.170.210.110 () {34 vars in 399 bytes} [Sun Sep  2 18:32:57 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 29000|app: 0|req: 25/125] 185.169.231.209 () {24 vars in 294 bytes} [Sun Sep  2 21:12:56 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 39 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM_15_185_centos:8888'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[pid: 29001|app: 0|req: 26/126] 183.57.54.43 () {22 vars in 226 bytes} [Sun Sep  2 23:01:36 2018] GET / => generated 53568 bytes in 27 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM_15_185_centos:8888'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[pid: 28997|app: 0|req: 26/127] 183.57.54.43 () {22 vars in 230 bytes} [Sun Sep  2 23:01:36 2018] OPTIONS / => generated 53596 bytes in 27 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM_15_185_centos:8888'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /nice ports,/Trinity.txt.bak
+[pid: 28998|app: 0|req: 26/128] 183.57.54.43 () {22 vars in 288 bytes} [Sun Sep  2 23:01:36 2018] GET /nice%20ports%2C/Tri%6Eity.txt%2ebak => generated 53912 bytes in 47 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 28999|app: 0|req: 26/129] 183.57.54.43 () {26 vars in 278 bytes} [Sun Sep  2 23:01:41 2018] GET / => generated 53864 bytes in 36 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 29000|app: 0|req: 26/130] 80.82.70.187 () {32 vars in 431 bytes} [Mon Sep  3 01:55:46 2018] GET /cache/global/img/gs.gif => generated 54573 bytes in 41 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 29001|app: 0|req: 27/131] 80.82.70.187 () {28 vars in 419 bytes} [Mon Sep  3 02:01:49 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54434 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 28997|app: 0|req: 27/132] 122.228.10.50 () {30 vars in 406 bytes} [Mon Sep  3 02:20:23 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28998|app: 0|req: 27/133] 185.169.231.209 () {24 vars in 294 bytes} [Mon Sep  3 02:23:28 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 28999|app: 0|req: 27/134] 60.191.38.78 () {30 vars in 406 bytes} [Mon Sep  3 02:47:33 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 29000|app: 0|req: 27/135] 80.82.78.50 () {32 vars in 430 bytes} [Mon Sep  3 04:00:45 2018] GET /cache/global/img/gs.gif => generated 54572 bytes in 42 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 29001|app: 0|req: 28/136] 185.169.231.209 () {24 vars in 294 bytes} [Mon Sep  3 05:53:37 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 50 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 28997|app: 0|req: 28/137] 80.82.78.50 () {28 vars in 417 bytes} [Mon Sep  3 08:29:51 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54432 bytes in 28 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.78.50 client_port: 6050] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 28998|app: 0|req: 28/138] 172.82.166.210 () {32 vars in 433 bytes} [Mon Sep  3 09:10:38 2018] GET /cache/global/img/gs.gif => generated 54575 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28999|app: 0|req: 28/139] 185.169.231.209 () {24 vars in 294 bytes} [Mon Sep  3 10:32:15 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 36 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 29000|app: 0|req: 28/140] 107.170.211.4 () {30 vars in 345 bytes} [Mon Sep  3 11:17:00 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 29001|app: 0|req: 29/141] 80.82.70.187 () {32 vars in 431 bytes} [Mon Sep  3 12:07:45 2018] GET /cache/global/img/gs.gif => generated 54573 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 28997|app: 0|req: 29/142] 80.82.70.187 () {28 vars in 419 bytes} [Mon Sep  3 12:13:53 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54434 bytes in 45 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.70.187 client_port: 28904] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+[pid: 28998|app: 0|req: 29/143] 71.6.146.185 () {34 vars in 534 bytes} [Mon Sep  3 12:48:43 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 28999|app: 0|req: 29/144] 71.6.146.185 () {36 vars in 457 bytes} [Mon Sep  3 12:48:43 2018] GET /favicon.ico => generated 4107 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 29000|app: 0|req: 29/145] 185.169.231.209 () {24 vars in 294 bytes} [Mon Sep  3 14:54:38 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 37 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key:  client_addr: 185.156.3.20 client_port: 10487] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 29001|app: 0|req: 30/146] 185.169.231.209 () {24 vars in 294 bytes} [Mon Sep  3 20:25:37 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qq.com'. You may need to add 'www.qq.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.qq.com'. You may need to add 'www.qq.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.qq.com/404/search_children.js
+[pid: 28998|app: 0|req: 30/147] 120.132.3.65 () {30 vars in 492 bytes} [Mon Sep  3 21:49:02 2018] GET http://www.qq.com/404/search_children.js => generated 54541 bytes in 78 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Bad Request: /404/search_children.js
+[pid: 28997|app: 0|req: 30/148] 120.132.3.65 () {34 vars in 510 bytes} [Mon Sep  3 21:49:02 2018] GET /404/search_children.js => generated 54716 bytes in 91 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.qq.com client_addr: 120.132.3.65 client_port: 16410] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 28999|app: 0|req: 30/149] 80.82.70.187 () {32 vars in 431 bytes} [Mon Sep  3 22:20:00 2018] GET /cache/global/img/gs.gif => generated 54573 bytes in 53 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 29000|app: 0|req: 30/150] 80.82.70.187 () {28 vars in 419 bytes} [Mon Sep  3 22:26:07 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54434 bytes in 51 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.70.187 client_port: 63211] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: '112.124.42.80:63435'. You may need to add '112.124.42.80' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 29001|app: 0|req: 31/151] 60.191.52.254 () {36 vars in 582 bytes} [Mon Sep  3 23:29:13 2018] HEAD / => generated 54775 bytes in 40 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM_15_185_centos:8888'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[pid: 28998|app: 0|req: 31/152] 196.52.43.115 () {26 vars in 323 bytes} [Tue Sep  4 00:37:39 2018] GET / => generated 53873 bytes in 29 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: VM_15_185_centos client_addr: 196.52.43.115 client_port: 20164] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28997|app: 0|req: 31/153] 185.169.231.209 () {24 vars in 294 bytes} [Tue Sep  4 02:56:47 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 28 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 28999|app: 0|req: 31/154] 80.82.78.50 () {32 vars in 430 bytes} [Tue Sep  4 03:00:54 2018] GET /cache/global/img/gs.gif => generated 54572 bytes in 40 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 29000|app: 0|req: 31/155] 185.169.231.209 () {24 vars in 294 bytes} [Tue Sep  4 06:38:25 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 39 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key:  client_addr: 110.133.36.76 client_port: 8683] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+Not Found: /wp-includes/js/comment-reply.min.js
+[pid: 29001|app: 0|req: 32/156] 117.184.250.101 () {44 vars in 781 bytes} [Tue Sep  4 07:13:03 2018] GET /wp-includes/js/comment-reply.min.js => generated 4179 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /skins/vector/csshover.htc
+[pid: 28998|app: 0|req: 32/157] 117.184.250.101 () {44 vars in 761 bytes} [Tue Sep  4 07:13:03 2018] GET /skins/vector/csshover.htc => generated 4149 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /misc/states.js
+[pid: 28997|app: 0|req: 32/158] 117.184.250.101 () {44 vars in 739 bytes} [Tue Sep  4 07:13:04 2018] GET /misc/states.js => generated 4116 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /include/js/md5.js
+[pid: 28999|app: 0|req: 32/159] 117.184.250.101 () {44 vars in 745 bytes} [Tue Sep  4 07:13:04 2018] GET /include/js/md5.js => generated 4125 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /include/js/common.js
+[pid: 29000|app: 0|req: 32/160] 117.184.250.101 () {44 vars in 751 bytes} [Tue Sep  4 07:13:04 2018] GET /include/js/common.js => generated 4134 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /include/js/ajax.js
+[pid: 29001|app: 0|req: 33/161] 117.184.250.101 () {44 vars in 747 bytes} [Tue Sep  4 07:13:04 2018] GET /include/js/ajax.js => generated 4128 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /res/js/dev/pages/common/global.js
+[pid: 28998|app: 0|req: 33/162] 117.184.250.101 () {44 vars in 777 bytes} [Tue Sep  4 07:13:04 2018] GET /res/js/dev/pages/common/global.js => generated 4173 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/wind_editor.js
+[pid: 28997|app: 0|req: 33/163] 117.184.250.101 () {44 vars in 745 bytes} [Tue Sep  4 07:13:04 2018] GET /js/wind_editor.js => generated 4125 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /styles/prosilver/template/forum_fn.js
+[pid: 28999|app: 0|req: 33/164] 117.184.250.101 () {44 vars in 785 bytes} [Tue Sep  4 07:13:04 2018] GET /styles/prosilver/template/forum_fn.js => generated 4185 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /styles/prosilver/template/styleswitcher.js
+[pid: 29000|app: 0|req: 33/165] 117.184.250.101 () {44 vars in 795 bytes} [Tue Sep  4 07:13:04 2018] GET /styles/prosilver/template/styleswitcher.js => generated 4200 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /editor/ubb/uploader.js
+[pid: 29001|app: 0|req: 34/166] 117.184.250.101 () {44 vars in 755 bytes} [Tue Sep  4 07:13:04 2018] GET /editor/ubb/uploader.js => generated 4140 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /template/default/style.css
+[pid: 28998|app: 0|req: 34/167] 117.184.250.101 () {44 vars in 763 bytes} [Tue Sep  4 07:13:05 2018] GET /template/default/style.css => generated 4152 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /images/js/common.js
+[pid: 28997|app: 0|req: 34/168] 117.184.250.101 () {44 vars in 749 bytes} [Tue Sep  4 07:13:05 2018] GET /images/js/common.js => generated 4131 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /templets/style/dede.css
+[pid: 28999|app: 0|req: 34/169] 117.184.250.101 () {44 vars in 757 bytes} [Tue Sep  4 07:13:05 2018] GET /templets/style/dede.css => generated 4143 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /include/dedeajax2.js
+[pid: 29000|app: 0|req: 34/170] 117.184.250.101 () {44 vars in 751 bytes} [Tue Sep  4 07:13:05 2018] GET /include/dedeajax2.js => generated 4134 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /images/default/inc.js
+[pid: 29001|app: 0|req: 35/171] 117.184.250.101 () {44 vars in 753 bytes} [Tue Sep  4 07:13:05 2018] GET /images/default/inc.js => generated 4137 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/lang/core/zh-cn.js
+[pid: 28998|app: 0|req: 35/172] 117.184.250.101 () {44 vars in 753 bytes} [Tue Sep  4 07:13:05 2018] GET /js/lang/core/zh-cn.js => generated 4137 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/lang/cms/zh-cn.js
+[pid: 28997|app: 0|req: 35/173] 117.184.250.101 () {44 vars in 751 bytes} [Tue Sep  4 07:13:05 2018] GET /js/lang/cms/zh-cn.js => generated 4134 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /d/js/acmsd/ecms_dialog.js
+[pid: 28999|app: 0|req: 35/174] 117.184.250.101 () {44 vars in 761 bytes} [Tue Sep  4 07:13:05 2018] GET /d/js/acmsd/ecms_dialog.js => generated 4149 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /skin/default/js/tabs.js
+[pid: 29000|app: 0|req: 35/175] 117.184.250.101 () {44 vars in 757 bytes} [Tue Sep  4 07:13:05 2018] GET /skin/default/js/tabs.js => generated 4143 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /media/system/js/tab.js
+[pid: 29001|app: 0|req: 36/176] 117.184.250.101 () {44 vars in 755 bytes} [Tue Sep  4 07:13:06 2018] GET /media/system/js/tab.js => generated 4140 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /media/system/css/mootree.css
+[pid: 28998|app: 0|req: 36/177] 117.184.250.101 () {44 vars in 767 bytes} [Tue Sep  4 07:13:06 2018] GET /media/system/css/mootree.css => generated 4158 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /lang/zh/front.js
+[pid: 28997|app: 0|req: 36/178] 117.184.250.101 () {44 vars in 743 bytes} [Tue Sep  4 07:13:06 2018] GET /lang/zh/front.js => generated 4122 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /style/default/content.css
+[pid: 28999|app: 0|req: 36/179] 117.184.250.101 () {44 vars in 761 bytes} [Tue Sep  4 07:13:06 2018] GET /style/default/content.css => generated 4149 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /lang/zh/edit.js
+[pid: 29000|app: 0|req: 36/180] 117.184.250.101 () {44 vars in 741 bytes} [Tue Sep  4 07:13:06 2018] GET /lang/zh/edit.js => generated 4119 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /rockmongo/
+[pid: 29001|app: 0|req: 37/181] 117.184.250.101 () {44 vars in 731 bytes} [Tue Sep  4 07:13:06 2018] GET /rockmongo/ => generated 4104 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /server-status
+[pid: 28998|app: 0|req: 37/182] 117.184.250.101 () {44 vars in 737 bytes} [Tue Sep  4 07:13:06 2018] GET /server-status => generated 4113 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /ueditor.all.js
+[pid: 28997|app: 0|req: 37/183] 117.184.250.101 () {44 vars in 739 bytes} [Tue Sep  4 07:13:06 2018] GET /ueditor.all.js => generated 4116 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /wikilib.d/PmWiki.ChangeLog
+[pid: 28999|app: 0|req: 37/184] 117.184.250.101 () {44 vars in 763 bytes} [Tue Sep  4 07:13:06 2018] GET /wikilib.d/PmWiki.ChangeLog => generated 4152 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /4e5e5d7364f443e28fbf0d3ae744a59a
+[pid: 29000|app: 0|req: 37/185] 117.184.250.101 () {44 vars in 775 bytes} [Tue Sep  4 07:13:07 2018] GET /4e5e5d7364f443e28fbf0d3ae744a59a => generated 4170 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /jenkins/
+[pid: 29001|app: 0|req: 38/186] 117.184.250.101 () {44 vars in 727 bytes} [Tue Sep  4 07:13:07 2018] GET /jenkins/ => generated 4098 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /console/login/LoginForm.jsp
+[pid: 28998|app: 0|req: 38/187] 117.184.250.101 () {44 vars in 765 bytes} [Tue Sep  4 07:13:07 2018] GET /console/login/LoginForm.jsp => generated 4155 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /solr/
+[pid: 28997|app: 0|req: 38/188] 117.184.250.101 () {44 vars in 721 bytes} [Tue Sep  4 07:13:07 2018] GET /solr/ => generated 4089 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 28999|app: 0|req: 38/189] 117.184.250.101 () {44 vars in 711 bytes} [Tue Sep  4 07:13:07 2018] GET / => generated 524 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 29000|app: 0|req: 38/190] 80.82.78.50 () {28 vars in 418 bytes} [Tue Sep  4 07:32:27 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54433 bytes in 46 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.78.50 client_port: 40856] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+[uwsgi-http key:  client_addr: 115.231.73.213 client_port: 46830] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 29001|app: 0|req: 39/191] 80.82.70.187 () {32 vars in 431 bytes} [Tue Sep  4 08:33:11 2018] GET /cache/global/img/gs.gif => generated 54573 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Not Found: /manager/html
+[pid: 28998|app: 0|req: 39/192] 202.43.154.162 () {36 vars in 521 bytes} [Tue Sep  4 08:38:32 2018] GET /manager/html => generated 4110 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /manager/html
+[pid: 28997|app: 0|req: 39/193] 202.43.154.162 () {32 vars in 470 bytes} [Tue Sep  4 08:38:32 2018] GET /manager/html => generated 4110 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 28999|app: 0|req: 39/194] 187.209.52.179 () {26 vars in 280 bytes} [Tue Sep  4 10:05:14 2018] GET / => generated 53866 bytes in 35 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key:  client_addr: 115.231.73.213 client_port: 54486] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+[uwsgi-http key:  client_addr: 110.133.36.76 client_port: 59072] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 29000|app: 0|req: 39/195] 185.169.231.209 () {24 vars in 294 bytes} [Tue Sep  4 11:35:50 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '112.124.42.80:63435'. You may need to add '112.124.42.80' to ALLOWED_HOSTS.
+Bad Request: /http:/112.124.42.80:63435/
+[pid: 29001|app: 0|req: 40/196] 60.191.52.254 () {34 vars in 657 bytes} [Tue Sep  4 11:40:56 2018] HEAD http://112.124.42.80:63435/ => generated 54887 bytes in 25 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 28998|app: 0|req: 40/197] 80.82.70.187 () {32 vars in 431 bytes} [Tue Sep  4 18:41:57 2018] GET /cache/global/img/gs.gif => generated 54573 bytes in 36 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 28997|app: 0|req: 40/198] 80.82.70.187 () {28 vars in 419 bytes} [Tue Sep  4 18:47:59 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54434 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.70.187 client_port: 38338] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 28999|app: 0|req: 40/199] 80.82.78.50 () {32 vars in 430 bytes} [Wed Sep  5 01:47:01 2018] GET /cache/global/img/gs.gif => generated 54572 bytes in 40 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 29000|app: 0|req: 40/200] 80.82.70.187 () {32 vars in 431 bytes} [Wed Sep  5 04:50:53 2018] GET /cache/global/img/gs.gif => generated 54573 bytes in 95 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 29001|app: 0|req: 41/201] 80.82.70.187 () {28 vars in 418 bytes} [Wed Sep  5 04:56:54 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54433 bytes in 36 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.70.187 client_port: 7381] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 28998|app: 0|req: 41/202] 80.82.78.50 () {28 vars in 418 bytes} [Wed Sep  5 05:49:34 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54433 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.78.50 client_port: 21704] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28997|app: 0|req: 41/203] 185.169.231.209 () {24 vars in 294 bytes} [Wed Sep  5 06:06:26 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28999|app: 0|req: 41/204] 185.169.231.209 () {24 vars in 294 bytes} [Wed Sep  5 06:31:01 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 57 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Not Found: /wp-includes/js/comment-reply.min.js
+[pid: 29000|app: 0|req: 41/205] 117.184.250.101 () {44 vars in 781 bytes} [Wed Sep  5 09:05:20 2018] GET /wp-includes/js/comment-reply.min.js => generated 4179 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /skins/vector/csshover.htc
+[pid: 29001|app: 0|req: 42/206] 117.184.250.101 () {44 vars in 761 bytes} [Wed Sep  5 09:05:20 2018] GET /skins/vector/csshover.htc => generated 4149 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /misc/states.js
+[pid: 28998|app: 0|req: 42/207] 117.184.250.101 () {44 vars in 739 bytes} [Wed Sep  5 09:05:20 2018] GET /misc/states.js => generated 4116 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /include/js/md5.js
+[pid: 28997|app: 0|req: 42/208] 117.184.250.101 () {44 vars in 745 bytes} [Wed Sep  5 09:05:20 2018] GET /include/js/md5.js => generated 4125 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /include/js/common.js
+[pid: 28999|app: 0|req: 42/209] 117.184.250.101 () {44 vars in 751 bytes} [Wed Sep  5 09:05:20 2018] GET /include/js/common.js => generated 4134 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /include/js/ajax.js
+[pid: 29000|app: 0|req: 42/210] 117.184.250.101 () {44 vars in 747 bytes} [Wed Sep  5 09:05:20 2018] GET /include/js/ajax.js => generated 4128 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /res/js/dev/pages/common/global.js
+[pid: 29001|app: 0|req: 43/211] 117.184.250.101 () {44 vars in 777 bytes} [Wed Sep  5 09:05:20 2018] GET /res/js/dev/pages/common/global.js => generated 4173 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/wind_editor.js
+[pid: 28998|app: 0|req: 43/212] 117.184.250.101 () {44 vars in 745 bytes} [Wed Sep  5 09:05:20 2018] GET /js/wind_editor.js => generated 4125 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /styles/prosilver/template/forum_fn.js
+[pid: 28997|app: 0|req: 43/213] 117.184.250.101 () {44 vars in 785 bytes} [Wed Sep  5 09:05:21 2018] GET /styles/prosilver/template/forum_fn.js => generated 4185 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /styles/prosilver/template/styleswitcher.js
+[pid: 28999|app: 0|req: 43/214] 117.184.250.101 () {44 vars in 795 bytes} [Wed Sep  5 09:05:21 2018] GET /styles/prosilver/template/styleswitcher.js => generated 4200 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /editor/ubb/uploader.js
+[pid: 29000|app: 0|req: 43/215] 117.184.250.101 () {44 vars in 755 bytes} [Wed Sep  5 09:05:21 2018] GET /editor/ubb/uploader.js => generated 4140 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /template/default/style.css
+[pid: 29001|app: 0|req: 44/216] 117.184.250.101 () {44 vars in 763 bytes} [Wed Sep  5 09:05:21 2018] GET /template/default/style.css => generated 4152 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /images/js/common.js
+[pid: 28998|app: 0|req: 44/217] 117.184.250.101 () {44 vars in 749 bytes} [Wed Sep  5 09:05:21 2018] GET /images/js/common.js => generated 4131 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /templets/style/dede.css
+[pid: 28997|app: 0|req: 44/218] 117.184.250.101 () {44 vars in 757 bytes} [Wed Sep  5 09:05:21 2018] GET /templets/style/dede.css => generated 4143 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /include/dedeajax2.js
+[pid: 28999|app: 0|req: 44/219] 117.184.250.101 () {44 vars in 751 bytes} [Wed Sep  5 09:05:21 2018] GET /include/dedeajax2.js => generated 4134 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /images/default/inc.js
+[pid: 29000|app: 0|req: 44/220] 117.184.250.101 () {44 vars in 753 bytes} [Wed Sep  5 09:05:21 2018] GET /images/default/inc.js => generated 4137 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/lang/core/zh-cn.js
+[pid: 29001|app: 0|req: 45/221] 117.184.250.101 () {44 vars in 753 bytes} [Wed Sep  5 09:05:22 2018] GET /js/lang/core/zh-cn.js => generated 4137 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/lang/cms/zh-cn.js
+[pid: 28998|app: 0|req: 45/222] 117.184.250.101 () {44 vars in 751 bytes} [Wed Sep  5 09:05:22 2018] GET /js/lang/cms/zh-cn.js => generated 4134 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /d/js/acmsd/ecms_dialog.js
+[pid: 28997|app: 0|req: 45/223] 117.184.250.101 () {44 vars in 761 bytes} [Wed Sep  5 09:05:22 2018] GET /d/js/acmsd/ecms_dialog.js => generated 4149 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /skin/default/js/tabs.js
+[pid: 28999|app: 0|req: 45/224] 117.184.250.101 () {44 vars in 757 bytes} [Wed Sep  5 09:05:22 2018] GET /skin/default/js/tabs.js => generated 4143 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /media/system/js/tab.js
+[pid: 29000|app: 0|req: 45/225] 117.184.250.101 () {44 vars in 755 bytes} [Wed Sep  5 09:05:22 2018] GET /media/system/js/tab.js => generated 4140 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /media/system/css/mootree.css
+[pid: 29001|app: 0|req: 46/226] 117.184.250.101 () {44 vars in 767 bytes} [Wed Sep  5 09:05:22 2018] GET /media/system/css/mootree.css => generated 4158 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /lang/zh/front.js
+[pid: 28998|app: 0|req: 46/227] 117.184.250.101 () {44 vars in 743 bytes} [Wed Sep  5 09:05:22 2018] GET /lang/zh/front.js => generated 4122 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /style/default/content.css
+[pid: 28997|app: 0|req: 46/228] 117.184.250.101 () {44 vars in 761 bytes} [Wed Sep  5 09:05:22 2018] GET /style/default/content.css => generated 4149 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /lang/zh/edit.js
+[pid: 28999|app: 0|req: 46/229] 117.184.250.101 () {44 vars in 741 bytes} [Wed Sep  5 09:05:22 2018] GET /lang/zh/edit.js => generated 4119 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /rockmongo/
+[pid: 29000|app: 0|req: 46/230] 117.184.250.101 () {44 vars in 731 bytes} [Wed Sep  5 09:05:22 2018] GET /rockmongo/ => generated 4104 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /server-status
+[pid: 29001|app: 0|req: 47/231] 117.184.250.101 () {44 vars in 737 bytes} [Wed Sep  5 09:05:23 2018] GET /server-status => generated 4113 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /ueditor.all.js
+[pid: 28998|app: 0|req: 47/232] 117.184.250.101 () {44 vars in 739 bytes} [Wed Sep  5 09:05:23 2018] GET /ueditor.all.js => generated 4116 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /wikilib.d/PmWiki.ChangeLog
+[pid: 28997|app: 0|req: 47/233] 117.184.250.101 () {44 vars in 763 bytes} [Wed Sep  5 09:05:23 2018] GET /wikilib.d/PmWiki.ChangeLog => generated 4152 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /4e5e5d7364f443e28fbf0d3ae744a59a
+[pid: 28999|app: 0|req: 47/234] 117.184.250.101 () {44 vars in 775 bytes} [Wed Sep  5 09:05:23 2018] GET /4e5e5d7364f443e28fbf0d3ae744a59a => generated 4170 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /jenkins/
+[pid: 29000|app: 0|req: 47/235] 117.184.250.101 () {44 vars in 727 bytes} [Wed Sep  5 09:05:23 2018] GET /jenkins/ => generated 4098 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /console/login/LoginForm.jsp
+[pid: 29001|app: 0|req: 48/236] 117.184.250.101 () {44 vars in 765 bytes} [Wed Sep  5 09:05:23 2018] GET /console/login/LoginForm.jsp => generated 4155 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /solr/
+[pid: 28998|app: 0|req: 48/237] 117.184.250.101 () {44 vars in 721 bytes} [Wed Sep  5 09:05:23 2018] GET /solr/ => generated 4089 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 28997|app: 0|req: 48/238] 117.184.250.101 () {44 vars in 711 bytes} [Wed Sep  5 09:05:23 2018] GET / => generated 524 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 28999|app: 0|req: 48/239] 139.162.83.10 () {30 vars in 340 bytes} [Wed Sep  5 11:43:32 2018] GET / => generated 524 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 29000|app: 0|req: 48/240] 80.82.70.187 () {32 vars in 431 bytes} [Wed Sep  5 15:01:54 2018] GET /cache/global/img/gs.gif => generated 54573 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 29001|app: 0|req: 49/241] 80.82.70.187 () {28 vars in 418 bytes} [Wed Sep  5 15:07:55 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54433 bytes in 56 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28998|app: 0|req: 49/242] 185.169.231.209 () {24 vars in 294 bytes} [Wed Sep  5 16:35:29 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '180.163.113.82'. You may need to add '180.163.113.82' to ALLOWED_HOSTS.
+Bad Request: /check_proxy
+[pid: 28997|app: 0|req: 49/243] 180.97.106.39 () {30 vars in 364 bytes} [Wed Sep  5 16:56:40 2018] HEAD /check_proxy => generated 54302 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28999|app: 0|req: 49/244] 185.169.231.209 () {24 vars in 294 bytes} [Wed Sep  5 20:40:38 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 28 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 29000|app: 0|req: 49/245] 125.212.217.215 () {30 vars in 484 bytes} [Wed Sep  5 22:45:58 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 29001|app: 0|req: 50/246] 125.212.217.215 () {32 vars in 408 bytes} [Wed Sep  5 22:46:00 2018] GET /favicon.ico => generated 4107 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28998|app: 0|req: 50/247] 185.169.231.209 () {24 vars in 294 bytes} [Wed Sep  5 23:26:17 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 28997|app: 0|req: 50/248] 80.82.78.50 () {32 vars in 430 bytes} [Wed Sep  5 23:43:38 2018] GET /cache/global/img/gs.gif => generated 54572 bytes in 27 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 28999|app: 0|req: 50/249] 80.82.70.187 () {32 vars in 431 bytes} [Thu Sep  6 01:11:32 2018] GET /cache/global/img/gs.gif => generated 54573 bytes in 37 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 29000|app: 0|req: 50/250] 80.82.70.187 () {28 vars in 419 bytes} [Thu Sep  6 01:17:36 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54434 bytes in 27 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.70.187 client_port: 13465] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Not Found: /manager/html
+[pid: 29001|app: 0|req: 51/251] 117.21.191.200 () {32 vars in 427 bytes} [Thu Sep  6 03:45:01 2018] GET /manager/html => generated 4110 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 28998|app: 0|req: 51/252] 82.221.105.6 () {34 vars in 534 bytes} [Thu Sep  6 03:52:48 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 28997|app: 0|req: 51/253] 82.221.105.6 () {36 vars in 457 bytes} [Thu Sep  6 03:52:50 2018] GET /favicon.ico => generated 4107 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 28999|app: 0|req: 51/254] 80.82.78.50 () {28 vars in 418 bytes} [Thu Sep  6 04:09:04 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54433 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.78.50 client_port: 37815] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 29000|app: 0|req: 51/255] 125.64.94.200 () {26 vars in 279 bytes} [Thu Sep  6 04:29:19 2018] GET / => generated 53865 bytes in 29 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 29001|app: 0|req: 52/256] 172.82.166.210 () {28 vars in 421 bytes} [Thu Sep  6 05:12:24 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54436 bytes in 24 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 172.82.166.210 client_port: 44482] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28998|app: 0|req: 52/257] 185.169.231.209 () {24 vars in 294 bytes} [Thu Sep  6 06:51:35 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 28997|app: 0|req: 52/258] 125.84.190.144 () {40 vars in 711 bytes} [Thu Sep  6 08:11:57 2018] GET /product/quotes => generated 3139 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 28999|app: 0|req: 52/259] 125.84.190.144 () {40 vars in 711 bytes} [Thu Sep  6 08:11:57 2018] GET /product/quotes => generated 3139 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 29000|app: 0|req: 52/260] 125.84.190.144 () {40 vars in 681 bytes} [Thu Sep  6 08:11:57 2018] GET /favicon.ico => generated 4107 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 29001|app: 0|req: 53/261] 125.84.190.144 () {40 vars in 683 bytes} [Thu Sep  6 08:12:13 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 28998|app: 0|req: 53/262] 125.84.190.144 () {42 vars in 754 bytes} [Thu Sep  6 08:12:15 2018] GET /product/quotes => generated 3139 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 28997|app: 0|req: 53/263] 125.84.190.144 () {42 vars in 714 bytes} [Thu Sep  6 08:12:53 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 28999|app: 0|req: 53/264] 125.84.190.144 () {40 vars in 739 bytes} [Thu Sep  6 08:13:04 2018] GET /product/dashboard-igv-578080 => generated 1755 bytes in 25 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 29000|app: 0|req: 53/265] 125.84.190.144 () {42 vars in 770 bytes} [Thu Sep  6 08:13:33 2018] GET /product/dashboard-igv-578080 => generated 1755 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 29001|app: 0|req: 54/266] 125.84.190.144 () {42 vars in 754 bytes} [Thu Sep  6 08:13:35 2018] GET /product/quotes => generated 3139 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 28998|app: 0|req: 54/267] 125.84.190.144 () {42 vars in 714 bytes} [Thu Sep  6 08:13:38 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 28997|app: 0|req: 54/268] 125.84.190.144 () {40 vars in 711 bytes} [Thu Sep  6 08:13:55 2018] GET /product/quotes => generated 3139 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 28999|app: 0|req: 54/269] 80.82.70.187 () {32 vars in 431 bytes} [Thu Sep  6 11:17:52 2018] GET /cache/global/img/gs.gif => generated 54573 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 29000|app: 0|req: 54/270] 80.82.70.187 () {28 vars in 419 bytes} [Thu Sep  6 11:23:55 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54434 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 29001|app: 0|req: 55/271] 185.169.231.209 () {24 vars in 294 bytes} [Thu Sep  6 12:08:54 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 48 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 28998|app: 0|req: 55/272] 52.192.2.17 () {34 vars in 443 bytes} [Thu Sep  6 12:39:47 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28997|app: 0|req: 55/273] 185.169.231.209 () {24 vars in 294 bytes} [Thu Sep  6 16:55:54 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 28 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '112.124.42.80:63435'. You may need to add '112.124.42.80' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 28999|app: 0|req: 55/274] 60.191.52.254 () {36 vars in 582 bytes} [Thu Sep  6 21:33:47 2018] HEAD / => generated 54775 bytes in 38 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qq.com'. You may need to add 'www.qq.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.qq.com'. You may need to add 'www.qq.com' to ALLOWED_HOSTS.
+Bad Request: /404/search_children.js
+[pid: 29000|app: 0|req: 55/275] 120.132.3.65 () {34 vars in 510 bytes} [Thu Sep  6 21:59:46 2018] GET /404/search_children.js => generated 54716 bytes in 75 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Bad Request: /http:/www.qq.com/404/search_children.js
+[pid: 29001|app: 0|req: 56/276] 120.132.3.65 () {30 vars in 492 bytes} [Thu Sep  6 21:59:46 2018] GET http://www.qq.com/404/search_children.js => generated 54541 bytes in 61 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.qq.com client_addr: 120.132.3.65 client_port: 50307] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+[pid: 28998|app: 0|req: 56/277] 60.191.38.78 () {30 vars in 405 bytes} [Thu Sep  6 22:33:03 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28997|app: 0|req: 56/278] 185.169.231.209 () {24 vars in 294 bytes} [Thu Sep  6 22:34:27 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 28999|app: 0|req: 56/279] 80.82.70.187 () {32 vars in 431 bytes} [Thu Sep  6 23:36:59 2018] GET /cache/global/img/gs.gif => generated 54573 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 29000|app: 0|req: 56/280] 80.82.70.187 () {28 vars in 418 bytes} [Thu Sep  6 23:43:49 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54433 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.70.187 client_port: 2949] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /cache/global/img/gs.gif
+[pid: 29001|app: 0|req: 57/281] 80.82.78.50 () {32 vars in 430 bytes} [Fri Sep  7 00:07:48 2018] GET /cache/global/img/gs.gif => generated 54572 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 28998|app: 0|req: 57/282] 139.162.79.87 () {34 vars in 393 bytes} [Fri Sep  7 00:45:56 2018] GET / => generated 524 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8888'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/wallet/list_keys
+[pid: 28997|app: 0|req: 57/283] 185.169.231.209 () {24 vars in 294 bytes} [Fri Sep  7 05:23:31 2018] GET /v1/wallet/list_keys => generated 53847 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[pid: 28999|app: 0|req: 57/284] 80.82.78.50 () {28 vars in 418 bytes} [Fri Sep  7 05:37:14 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 54433 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.78.50 client_port: 13987] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Fri Sep  7 07:03:35 2018 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep  7 07:03:35 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep  7 07:03:35 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep  7 07:03:35 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep  7 07:03:35 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep  7 07:03:41 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep  7 07:03:41 2018 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep  7 07:03:41 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep  7 07:03:41 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep  7 07:03:41 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
